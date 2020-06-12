@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Email testing example">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+    </listeners>
+
+    <test name="Tests">
+        <classes>
+            <class name="HomeWork9.Task1.VkTest"/>
+            <class name="HomeWork9.Task2.CalculatorTest"/>
+        </classes>
+    </test>
+</suite>
